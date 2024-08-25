@@ -20,16 +20,19 @@
 
 		&:hover {
 			background-position-y: bottom;
+			border-color: var(--color-white);
 		}
 	}
 
 	&_secondary {
 		background: rgba(0, 0, 0, 0.39);
+		border: 1px solid rgba(0, 0, 0, 0.39);
 		padding: 20px;
 		color: var(--color-white);
 
 		&:hover {
 			background: rgba(0, 0, 0, 1);
+			border-color: var(--color-white);
 		}
 	}
 }

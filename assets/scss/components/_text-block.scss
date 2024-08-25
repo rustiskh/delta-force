@@ -9,4 +9,8 @@
 	&__list {
 		list-style-position: inside;
 	}
+
+	@include mobile {
+		font-size: 18px;
+	}
 }
