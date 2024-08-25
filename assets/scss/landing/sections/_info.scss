@@ -1,0 +1,44 @@
+.info {
+	padding-top: 20px;
+	padding-bottom: 120px;
+
+	background: url("../img/bg_3-2.webp");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	@include laptop {
+		background-position: center left;
+	}
+
+	@include tablet {
+		background-position-x: -326px;
+	}
+
+	&__header {
+		text-align: right;
+		@include laptop {
+			img {
+				width: 140px;
+			}
+		}
+	}
+
+	&__content {
+		margin-top: 40px;
+		max-width: 830px;
+		margin-left: auto;
+	}
+
+	&__element {
+		height: 550px;
+
+		@include laptop {
+			height: 850px;
+		}
+
+		@include mobile {
+			height: 880px;
+		}
+	}
+}

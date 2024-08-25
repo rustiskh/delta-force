@@ -1,0 +1,33 @@
+.specs {
+	padding-top: 20px;
+	padding-bottom: 120px;
+
+	background: url("../img/bg_2.webp");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	@include laptop {
+		background-position: center right;
+	}
+
+	&__header {
+		@include laptop {
+			text-align: right;
+
+			img {
+				width: 140px;
+			}
+		}
+	}
+
+	&__content {
+		display: flex;
+		column-gap: 60px;
+		margin-top: 40px;
+
+		@include laptop {
+			flex-direction: column;
+		}
+	}
+}

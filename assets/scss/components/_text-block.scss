@@ -1,0 +1,12 @@
+.text-block {
+	padding: 20px 20px;
+	background: rgba(0, 0, 0, 0.51);
+
+	font-weight: 400;
+	font-size: 24px;
+	color: var(--color-white);
+
+	&__list {
+		list-style-position: inside;
+	}
+}
